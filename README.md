@@ -8,5 +8,7 @@ I did the following mockup implementation using custom HTML, CSS, and vanilla Ja
 
 In terms of media queries, in the interest of time, I did basic queries to demonstrate my knowledge and use of them. Please note that the Services section does need more work but the general idea is there. 
 
+In terms of flaws, I would say that where the green drop down arrow is can be confusing to a user. Is the whole image behind it going to drop down as the user clicks the arrow or is it simply supposed to nagivate to another portion of the page? Maybe the statment above the arrow could be clearer as well as to where the user will be taken upon clicking. 
+
 I hope you enjoy! 
 
