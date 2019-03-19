@@ -1,0 +1,244 @@
+body {
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-name {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 6vw;
+}
+.navbar-list {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 6vw;
+}
+
+.navbar-item {
+  list-style-type: none;
+  margin-right: 1vw;
+  color: white;
+}
+
+.navbar-item.login-margin {
+  margin-left: 2vw;
+  color: white;
+}
+
+.button-support {
+  background-color: #84d29a;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section .promo-name {
+  width: 20%;
+  margin-top: 2em;
+}
+.main-section .promo-name span {
+  color: #9de7b3;
+}
+
+.main-section .search-domain-div {
+  margin: 1em 0 4em 0;
+}
+
+.main-section .input-domain {
+  padding: 12px;
+  width: 20vw;
+  border-radius: 5px;
+}
+
+.main-section .search-domain-btn {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #9de7b3;
+  color: white;
+}
+
+.main-section .learn-more-tagline {
+  font-size: 12px;
+}
+
+.main-section .down-arrow-img {
+  width: 40px;
+  margin-bottom: 4em;
+}
+
+.main-section .filler-text {
+  width: 40%;
+  color: #c1c0ca;
+}
+
+.main-section .create-btn {
+  color: white;
+  background-color: #7472dc;
+  padding: 7px 5px 7px 5px;
+  border-radius: 5px;
+  width: 16vw;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 1em;
+}
+
+.main-section .services-container .services {
+  color: #b1b2c3;
+  text-align: center;
+  /* text-decoration: underline; */
+}
+.main-section .services-container .services::after {
+  /* width: 20%;
+  position: absolute;
+  text-align: center;
+  border-width: 0 0 1px;
+  border-style: solid black; */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 4px;
+  text-decoration: underline;
+  width: 0;
+  transition: width 0.25s;
+}
+
+.main-section .services-container .services-listings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  /* border: 5px solid #f1f1f5; */
+}
+
+.main-section .services-container .services-listings .service-type {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  border: 2px solid #f1f1f5;
+  padding: 30px 0 20px 0;
+  border-radius: 10px;
+  width: 13vw;
+  height: 20vh;
+  margin: 1em 0.5em 0.5em 2em;
+}
+
+.main-section
+  .services-container
+  .services-listings
+  .service-type
+  .services-img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-right: 0.5em;
+}
+
+.main-section
+  .services-container
+  .services-listings
+  .service-type
+  .services-text {
+  font-size: 15px;
+  display: flex;
+  color: #c9c8d2;
+}
+
+.main-section
+  .services-container
+  .services-listings
+  .service-type
+  .services-text
+  p
+  .services-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-section
+  .services-container
+  .services-listings
+  .service-type
+  .services-text
+  p {
+  margin-top: 0;
+}
+
+.main-section
+  .services-container
+  .services-listings
+  .service-type
+  .services-text
+  p
+  span {
+  color: black;
+}
+
+.main-section .account-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-section .account-container .account-div {
+  width: 50%;
+  align-items: flex-start;
+}
+
+.main-section .account-container .account-statement {
+  /* width: 80%; */
+  color: #bdbeee;
+  font-size: 20px;
+}
+
+.main-section .account-container .account-statement span {
+  color: #a398c4;
+  font-size: 20px;
+}
+
+.main-section .account-container .account-btn {
+  width: 60%;
+  margin-left: 5em;
+}
+
+.main-section .account-container .account-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-section .account-container .account-btn button {
+  background-color: #7472dc;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  font-size: 10px;
+
+  margin-right: 1em;
+}
+
+.main-section .account-container .account-btn .contact-btn {
+  background-color: white;
+  font-size: 10px;
+  color: #7472dc;
+}
+
+footer {
+  background-color: #7472dc;
+  height: 40vh;
+}
