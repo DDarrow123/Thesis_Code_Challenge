@@ -10,5 +10,12 @@ In terms of media queries, in the interest of time, I did basic queries to demon
 
 In terms of flaws, I would say that where the green drop down arrow is can be confusing to a user. Is the whole image behind it going to drop down as the user clicks the arrow or is it simply supposed to nagivate to another portion of the page? Maybe the statment above the arrow could be clearer as well as to where the user will be taken upon clicking. 
 
+Instructions: 
+
+1. Clone the repository and git clone it into a newly created folder in your terminal (`mkdir <folder name>`)
+2. `cd` into Thesis_Code_Challenge
+3. `cd` into the assets folder 
+4. Here you will see in the index.html file - to run this, simply run the command: `open index.html` You should see the site running locally
+
 I hope you enjoy! 
 
