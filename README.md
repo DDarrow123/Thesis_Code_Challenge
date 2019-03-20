@@ -14,7 +14,7 @@ Instructions:
 
 1. Clone the repository and git clone it into a newly created folder in your terminal (`mkdir <folder name>`)
 2. `cd` into Thesis_Code_Challenge
-3. `cd` into the assets folder 
+3. `cd` into the 'public' folder 
 4. Here you will see the index.html file - to run this, simply run the command: `open index.html` You should see the site running locally
 
 I hope you enjoy! 
